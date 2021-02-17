@@ -1,0 +1,90 @@
+.container {
+	font-size: 1em;
+	width: 100%;
+	display: flex;
+	position: relative;
+}
+
+.homebg {
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	clip-path: circle(50% at 25% 20%);
+	position: absolute;
+}
+
+.send {
+	font-size: 1.2em;
+	display: inline-block;
+	width: 15%;
+	background-color: #CCCCCC;
+	border-radius: 5px;
+	border: 3px solid black;
+	margin: 10px;
+}
+
+.send:hover {
+	color: white;
+	background-color: #32D242;
+}
+
+.contactForm {
+	display: inline-block;
+	position: relative;
+	background-color: #666666;
+	border: 3px solid black;
+	border-radius: 5px;
+	padding: 5%;
+	color: white;
+	max-height: 500px; 
+	max-width: 300px;
+}
+
+.signature {
+	font-size: 1em;
+	margin: 0px 0px 10px 0px;
+	background-color: #CCCCCC;
+	border-radius: 15px;
+	border: 3px solid black;
+	text-align: center;
+}
+
+.mail {
+	font: 1.4em/1.6em cursive;
+    color: black;
+	width: 80%;
+    height: 70px;
+    padding: 10px;
+    background-color: #CCCCCC;
+  	border: 3px solid black;
+    border-radius: 15px;
+    resize: none;
+}
+
+body {
+	background-color: #8DBBFF;
+	font-family: 'Noto Sans JP', sans-serif;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+ul {
+ 	list-style-type: none;
+}
+
+li {
+	padding: 1em;
+	margin: 1em;
+	border-radius: 2px;
+	background-color: #666666;
+	display: center;
+}
+
+li:hover {
+	background-color: #FD6666;
+	font-size: ;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+		<script src="write.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<ul class="container">
+		<li><a href="index.html">Home</a></li>
+	</ul>
+	<form class="contactForm">
+		<label for="name">Full Name:</label>
+		<input type="text" name="name" id="signature" class="signature">
+			<br>
+		<div>What type of mail is it?</div>
+		<label><input type="radio" id="choice1" name="type" value="Hate" checked> Hate</label>
+		<label><input type="radio" id="choice2" name="type" value="Fan"> Fan</label>
+		<br><br>
+		<label for="message" class="message">What's up?</label> 
+		<textarea type="text" name="mail" id="mail" class="mail" maxlength="140"></textarea>
+			<br>
+	</form>
+	<br>
+	<input type="submit" value="Send mail"  class="send" onclick="sendMail();">
+</body>
+</html>
